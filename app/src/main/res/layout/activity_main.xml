@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome To Cat Care!"
+            android:textSize="20dp"
+            ></TextView>
+
+        <Button
+            android:id="@+id/food_button"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="32dp"
+            android:onClick="food"
+            android:text="Pet Food" />
+        <Button
+            android:id="@+id/grooming_button"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:onClick="grooming"
+            android:text="Pet Grooming" />
+        <Button
+            android:id="@+id/petandme_button"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:onClick="petandme"
+            android:text="Pet Fun" />
+        <Button
+            android:id="@+id/medic_button"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:onClick="medic"
+            android:text="Pet Medication" />
+        <Button
+            android:id="@+id/house_button"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:onClick="house"
+            android:text="Pet Waste" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/menu_bawah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:foregroundGravity="bottom"
+            android:background="@color/dark2brown"
+            app:menu="@menu/menu_bawah" />
+    </FrameLayout>
+</RelativeLayout>

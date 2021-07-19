@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Cat Care</string>
+
+    <string name="food_names">food_names</string>
+    <string name="food_details">food_details</string>
+    <string name="way_names">way_names</string>
+    <string name="way_details">way_details</string>
+    <string name="fun_names">fun_names</string>
+    <string name="fun_details">fun_details</string>
+    <string name="medic_names">medic_names</string>
+    <string name="medic_details">medic_details</string>
+    <string name="house_names">house_names</string>
+    <string name="house_details">house_details</string>
+</resources>

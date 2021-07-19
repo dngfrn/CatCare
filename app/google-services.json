@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "922790238667",
+    "project_id": "catcareapp-6d563",
+    "storage_bucket": "catcareapp-6d563.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922790238667:android:a6f9c994c424e8a231fe4e",
+        "android_client_info": {
+          "package_name": "com.example.catcareapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922790238667-j0rmrf9lctt52ad8kgol2eb1k00l5j5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBybtQR0J8NtPBRRF-j-799X7E84TYXZ2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922790238667-j0rmrf9lctt52ad8kgol2eb1k00l5j5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
